@@ -92,6 +92,7 @@ dependencies {
     //livedata, viewmodel
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation("androidx.lifecycle:lifecycle-service:2.3.1")
 
 //    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     //Rich text editor
