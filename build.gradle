@@ -94,9 +94,16 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
     implementation("androidx.lifecycle:lifecycle-service:2.3.1")
 
-//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     //Rich text editor
     implementation 'com.github.onecode369:WYSIWYG:4.0'
     // circleImageView
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+    
+    // Room
+    implementation "androidx.room:room-ktx:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    // Hilt
+    implementation "com.google.dagger:hilt-android:2.38.1"
+    kapt "com.google.dagger:hilt-compiler:2.38.1"
 }
